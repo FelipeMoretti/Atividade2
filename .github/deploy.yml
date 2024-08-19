@@ -16,8 +16,8 @@ jobs:
       run: npm i -g vercel
 
     - name: Deploy to Vercel
-      run: vercel --token ${{ secrets.VERCEL_TOKEN }} --prod
+      run: vercel --token ${{ secrets.spB0ErjPFQCfxjIAeK8eqfOb }} --prod
       env:
-        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        VERCEL_ORG_ID: ${{ secrets.ikKoq9QcVUKnwuCRRx92Q3hK }}
+        VERCEL_PROJECT_ID: ${{ secrets.Jk0zzfAe8R084rvjbSdOb6KH }}
 
